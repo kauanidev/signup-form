@@ -1,0 +1,37 @@
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    text-align: center;
+
+    p {
+        font-size: 11px;
+        color: var(--grayishBlue);
+
+        a {
+            color: var(--red);
+            font-weight: 700;
+        }
+    }
+
+    @media(max-width: 530px) {
+        padding: 20px;
+    }
+}
+
+.button {
+    background: var(--green);
+    width: 100%;
+    color: white;
+    padding: 15px 0px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
